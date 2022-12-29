@@ -4,5 +4,6 @@ import com.workout.workoutApp.entity.DayEntity;
 import org.springframework.data.mongodb.repository.MongoRepository;
 public interface DayMongoRepo extends MongoRepository<DayEntity,String> {
 	
+	
 
 }
